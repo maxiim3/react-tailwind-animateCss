@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'animate.css';
+
+$primary-color : #ffd700;
+
+#navAnimate{
+  &:hover{
+    animation: pulse 300ms;
+  }
+}
+
+#hover-letter{
+  display: inline-block;
+  &:hover{
+    animation: swing 800ms;
+    color: red;
+  }
+}
